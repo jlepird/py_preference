@@ -6,11 +6,9 @@ readme = "README.md"
 authors = [
     { name = "John Lepird", email = "jack.lepird@gmail.com" }
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = []
-
-[project.scripts]
-py-preference = "py_preference:main"
+license = "MIT"
 
 [build-system]
 requires = ["hatchling"]
