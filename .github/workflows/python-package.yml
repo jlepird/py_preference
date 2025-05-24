@@ -35,4 +35,4 @@ jobs:
     - name: Check types
       run: uv tool run ty check
     - name: Test with pytest
-      run: uv tool run pytest --pyargs py_preference
+      run: uv run pytest --pyargs py_preference
