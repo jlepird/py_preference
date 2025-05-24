@@ -1,8 +1,9 @@
 from polars.testing import assert_frame_equal
 from py_preference.preference import Comparator, Sample
+import polars as pl
 
 
-def test_basic_sample(example_dataframe) -> None:
+def test_basic_sample(example_dataframe: pl.DataFrame) -> None:
     row_0 = example_dataframe[0]
     row_1 = example_dataframe[1]
 

@@ -27,3 +27,15 @@ dev = [
     "pytest>=8.3.5",
     "seaborn>=0.13.2",
 ]
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "N",
+    "ARG",
+    "TC",
+    "LOG",
+    "ANN",
+]
+
+fixable = ["ALL"]

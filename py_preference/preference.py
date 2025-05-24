@@ -2,7 +2,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import enum
-import polars as pl
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import polars as pl
 
 
 @enum.unique
